@@ -1,4 +1,4 @@
-import { useQuery } from "react-query";
+import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { FetchPokemonUsecase } from "../usecase/pokemon-usecase";
 import { PokemonService } from "../services/pokemon-service";
 
@@ -13,6 +13,6 @@ export const useFetchPokemon = (filters: object, enable: boolean) => {
     refetchOnReconnect: false,
     refetchOnWindowFocus: false,
     retry: false,
-    keepPreviousData: true,
+    placeholderData: keepPreviousData,
   });
 };

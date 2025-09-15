@@ -1,4 +1,4 @@
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import { GetByIdPokemonUsecase } from "../usecase/pokemon-usecase";
 import { PokemonService } from "../services/pokemon-service";
 
