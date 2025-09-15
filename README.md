@@ -40,6 +40,11 @@ npm run build
 # Preview production build:
 npm run preview
 ```
+
+# Link deployment
+
+https://pokemon-web-app-sandy-tau.vercel.app/
+
 <!-- previeww -->
 
 ![alt text](image.png)
