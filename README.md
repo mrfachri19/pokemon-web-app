@@ -45,7 +45,8 @@ npm run preview
 
 https://pokemon-web-app-sandy-tau.vercel.app/
 
-<!-- previeww -->
+
+# Preview
 
 ![alt text](image.png)
 ![alt text](image-1.png)
