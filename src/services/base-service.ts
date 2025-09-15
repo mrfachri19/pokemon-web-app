@@ -1,12 +1,6 @@
 import axios, { type AxiosRequestConfig, type AxiosResponse } from "axios";
 
-const baseRequestHeader = {
-  "X-Tablelink-Service": "BE",
-  "Accept-Language": "id",
-};
-
 const baseHeader: AxiosRequestConfig["headers"] = {
-  ...baseRequestHeader,
   "Content-type": "application/json",
 };
 
